@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		761ABD24291967A4006E4C8B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761ABD23291967A4006E4C8B /* DetailView.swift */; };
 		766477B62915271A00686CE1 /* Notes_App Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 766477B52915271A00686CE1 /* Notes_App Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		766477BB2915271A00686CE1 /* Notes_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766477BA2915271A00686CE1 /* Notes_AppApp.swift */; };
 		766477BD2915271A00686CE1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 766477BC2915271A00686CE1 /* ContentView.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		761ABD23291967A4006E4C8B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		766477AF2915271A00686CE1 /* Notes_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notes_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		766477B52915271A00686CE1 /* Notes_App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notes_App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		766477BA2915271A00686CE1 /* Notes_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes_AppApp.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				766477BC2915271A00686CE1 /* ContentView.swift */,
+				761ABD23291967A4006E4C8B /* DetailView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,6 +215,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				766477BD2915271A00686CE1 /* ContentView.swift in Sources */,
+				761ABD24291967A4006E4C8B /* DetailView.swift in Sources */,
 				766477BB2915271A00686CE1 /* Notes_AppApp.swift in Sources */,
 				766477CF291529CE00686CE1 /* Note.swift in Sources */,
 			);
